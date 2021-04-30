@@ -6,6 +6,7 @@
 #include <time.h>
 #include <button.h>
 #include <button_interface.h>
+#include <button_data.h>
 
 #define BUFFER_SIZE 1024
 

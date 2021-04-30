@@ -7,6 +7,7 @@
 #include <sys/types.h>
 #include <syslog.h>
 #include <led_interface.h>
+#include <led_data.h>
 
 #define BUFFER_SIZE 1024
 

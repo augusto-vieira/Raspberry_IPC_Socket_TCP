@@ -2,7 +2,6 @@
 #define BUTTON_INTERFACE_H_
 
 #include <stdbool.h>
-#include <tcp_client.h>
 
 /**
  * @brief 
@@ -15,12 +14,5 @@ typedef struct
     
 } Button_Interface;
 
-typedef struct 
-{
-    void *object;
-    Button_Interface *interface;
-} Button_Data;
-
-bool Button_Run(TCP_Client_t *client, Button_Data *button);
 
 #endif /* BUTTON_INTERFACE_H_ */

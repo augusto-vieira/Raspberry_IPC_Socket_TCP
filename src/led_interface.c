@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <led_interface.h>
+#include <led_data.h>
 
 
 bool LED_Run(TCP_Server_t *server, LED_Data *led)
